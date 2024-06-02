@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/jaseeraabubacker.github.io/static/css/main.4a024094.css",
+    "main.js": "/jaseeraabubacker.github.io/static/js/main.3b2d3727.js",
+    "static/js/453.68693753.chunk.js": "/jaseeraabubacker.github.io/static/js/453.68693753.chunk.js",
+    "static/media/aws-logo.svg": "/jaseeraabubacker.github.io/static/media/aws-logo.1cbe87b9d035b2a3d8975cfce9fe1321.svg",
+    "static/media/code-wars.svg": "/jaseeraabubacker.github.io/static/media/code-wars.fd5c80339a584440b9f2d32c0d8aa6ad.svg",
+    "static/media/ruby-logo.svg": "/jaseeraabubacker.github.io/static/media/ruby-logo.e0c38a121adb171e550aeb15895ae9c6.svg",
+    "static/media/react-logo.svg": "/jaseeraabubacker.github.io/static/media/react-logo.7d904ea85d9409684e3071bcbe944b9c.svg",
+    "static/media/js-logo.svg": "/jaseeraabubacker.github.io/static/media/js-logo.b81845c4b51b31a6a40ca7ba4863bf7f.svg",
+    "static/media/te-logo.svg": "/jaseeraabubacker.github.io/static/media/te-logo.21a356e887aa3fd47dc57567288796a3.svg",
+    "static/media/ts-logo.svg": "/jaseeraabubacker.github.io/static/media/ts-logo.db9994f9f627f599724ed3942a6297c3.svg",
+    "index.html": "/jaseeraabubacker.github.io/index.html",
+    "main.4a024094.css.map": "/jaseeraabubacker.github.io/static/css/main.4a024094.css.map",
+    "main.3b2d3727.js.map": "/jaseeraabubacker.github.io/static/js/main.3b2d3727.js.map",
+    "453.68693753.chunk.js.map": "/jaseeraabubacker.github.io/static/js/453.68693753.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a024094.css",
+    "static/js/main.3b2d3727.js"
+  ]
+}

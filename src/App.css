@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+.ts-logo {
+  padding-right: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.terraform-logo {
+  padding-bottom: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ruby-logo {
+  padding-top:  10px;
+  padding-left:  100px;
 }
 
-.App-header {
-  background-color: #282c34;
+.js-logo {
+  padding-bottom:  50px;
+}
+
+.aws-logo {
+  padding-left:  100px;
+  padding-right:  10px;
+  padding-bottom:  50px;
+}
+
+.react-logo{
+  padding-right: 30px;
+  padding-top: 60px;
+}
+.grid-container {
+  font-family: 'American Typewriter', serif;
+  background-color: #323233;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.grid-item-logo {
+  padding-left: 60px;
+  padding-top: 40px;
+  color: lightseagreen;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.grid-item-line {
+  grid-column-start: 1 ;
+  grid-column-end: 3 ;
+  color: lightseagreen;
+  grid-row-start: 2;
+}
+
+.grid-item-name {
+  font-size: 30px;
+  padding-top: 40px;
+}
+
+.grid-item-list {
+  font-size: 30px;
+  padding-left: 60px;
+  padding-top: 40px;
+}
+
+.grid-item-text {
+  font-size: 30px;
+  padding-top: 60px;
 }

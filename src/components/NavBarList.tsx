@@ -14,11 +14,11 @@ export default function NavBarList() {
                 <Typography variant="h5">Home</Typography>
             </Link>
 
-            <Link to="/about-me" className="link">
+            <Link to="/my-projects" className="link">
                 <Typography variant="h5">Projects</Typography>
             </Link>
 
-            <Link to="/about-me" className="link">
+            <Link to="/my-experience" className="link">
                 <Typography variant="h5">Experience</Typography>
             </Link>
         </ThemeProvider>

@@ -6,12 +6,10 @@ import Experience from './Experience';
 
 export function NavigationRoutes() {
   return (
-    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/my-projects" element={<Projects />} />
         <Route path="/my-experience" element={<Experience />} />
       </Routes>
-    </Router>
   )
 }

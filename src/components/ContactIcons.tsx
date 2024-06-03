@@ -1,13 +1,20 @@
 import CodeWarsLogo from '../assets/code-wars.svg';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubLogo from '../assets/github.svg';
+import LinkedInLogo from '../assets/linkedin.svg';
 
 export default function ContactIcons() {
     return (
         <>
-            <LinkedInIcon sx={{ fontSize: 50 }} />
-            <GitHubIcon sx={{ fontSize: 50 }} />
-            <img className="code-wars-logo" src={CodeWarsLogo} alt="CodeWarsLogo" />
+            <a href="https://github.com/jpmaHub">
+                <img className="github-logo" src={GitHubLogo} alt="GitHubLogo" />
+            </a>
+            <a href="https://www.linkedin.com/in/mjaseera">
+                <img className="linkedin-logo" src={LinkedInLogo} alt="LinkedInLogo" />
+            </a>
+            <a href="https://www.codewars.com/users/jpmaHub">
+                <img className="code-wars-logo" src={CodeWarsLogo} alt="CodeWarsLogo" />
+            </a>
+
         </>
     )
 }

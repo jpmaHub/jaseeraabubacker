@@ -1,10 +1,15 @@
 import { Grid } from '@mui/material'
-import './Pages.scss';
+import './Grid.scss';
 import ContactIcons from '../components/ContactIcons';
 import TitleName from '../components/TitleName';
 import NavBarList from '../components/NavBarList';
+import { ReactNode } from 'react';
 
-export default function AboutMe() {
+interface HomeProps {
+    children: ReactNode;
+}
+
+export const GridHelper: React.FC<HomeProps> = ({ children }) => {
     return (
         <Grid container className="grid-container">
           <Grid item xs={4} className="grid-item-logo">
@@ -20,9 +25,7 @@ export default function AboutMe() {
           </Grid>
     
           <Grid item xs={8} className="grid-item-intro">
-            <Grid item xs={12}>
-             
-            </Grid>
+              {children}
           </Grid>
         </Grid>
       );

@@ -15,11 +15,12 @@ export default function NavBarList() {
             </Link>
 
             <Link to="/about-me" className="link">
-                <Typography variant="h5">About Me</Typography>
+                <Typography variant="h5">Projects</Typography>
             </Link>
 
-            <Typography variant="h5">Projects</Typography>
-            <Typography variant="h5">Experience</Typography>
+            <Link to="/about-me" className="link">
+                <Typography variant="h5">Experience</Typography>
+            </Link>
         </ThemeProvider>
     )
 }

@@ -1,9 +1,8 @@
-
-import AboutMe from './pages/AboutMe';
-import Home from './pages/Home';
+import AboutMe from './AboutMe';
+import Home from './Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
-function App() {
+export function NavigationRoutes() {
   return (
     <Router>
       <Routes>
@@ -13,5 +12,3 @@ function App() {
     </Router>
   )
 }
-
-export default App;

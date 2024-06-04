@@ -8,12 +8,13 @@ import { GridHelper } from '../helpers/GridHelper';
 export default function Home() {
   return (
     <GridHelper>
-        <Grid item xs={12}>
+        <Grid item xs={11}>
           <IntroText />
         </Grid>
-      <Grid item xs={12}>
+      <Grid item xs={10}>
         <Divider sx={{ fontSize: '80px', bgcolor: 'lightseagreen' }} />
-      </Grid><Grid item xs={12} className="grid-item-skills-logo">
+      </Grid>
+      <Grid item className="grid-item-skills-logo">
         <SkillsLogos />
       </Grid>
     </GridHelper>

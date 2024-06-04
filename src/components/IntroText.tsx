@@ -1,8 +1,9 @@
 
 import { Typography } from '@mui/material'
+import  { introText }  from '../Utils/data';
 
 export default function IntroText() {
     return (
-        <Typography className="about-me" variant="h5" sx={{ fontFamily: 'Trebuchet MS' }}>Hello, I am Jaseera! I'm a full stack developer who loves creating applications. Let's build something great together!</Typography>
+        <Typography variant="h4">{introText}</Typography>
     )
 }

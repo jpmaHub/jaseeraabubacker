@@ -1,24 +1,39 @@
 import './Pages.scss';
 import { GridHelper } from '../helpers/GridHelper';
 import Paper from '@mui/material/Paper';
-import { styled } from '@mui/material/styles';
-import { Grid } from '@mui/material';
-const DemoPaper = styled(Paper)(({ theme }) => ({
-    width: 550,
-    height: 150,
-    marginLeft: '30%',
-    ...theme.typography.body1,
-    textAlign: 'center',
-  }));
+import { Box, Grid, Typography } from '@mui/material';
+import { ThemeProvider, createTheme, styled } from '@mui/material/styles';
 
-  
+const darkTheme = createTheme({
+  palette: {
+    mode: 'dark',
+  },
+});
+
+
 export default function Experience() {
   return (
-    <GridHelper>
-      <Grid item xs={8}>
-           <DemoPaper square> My experince  </DemoPaper>
+    <ThemeProvider theme={darkTheme}>
+      <GridHelper>
+       <Grid item xs={10}>
+           <Paper elevation={24} sx={{
+                p: 22,
+                borderRadius: 8,
+                bgcolor: 'background.default',
+                display: 'grid',
+                height: 250,
+              }}>  
+              
+               <Typography variant='h5'>What is Lorem Ipsum? </Typography>
+            
+              <Typography>Lorem Ipsum is sum has been the industry's standard dummy textsum.</Typography>
+              
+              
+              
+               </Paper>
         </Grid>
+      </GridHelper>
+    </ThemeProvider>
 
-    </GridHelper>
   );
 }
